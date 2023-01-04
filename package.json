@@ -1,0 +1,17 @@
+{
+  "name": "primeiro-projeto",
+  "version": "1.0.0",
+  "description": "Primeiro projeto com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypres open"
+  },
+  "author": "Getulio Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cypress": "^9.1.1",
+    "D": "^1.0.0",
+    "mochawesome": "^7.1.3"
+  }
+}
