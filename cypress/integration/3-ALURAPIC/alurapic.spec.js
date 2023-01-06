@@ -1,5 +1,3 @@
-const { contains } = require("cypress/types/jquery");
-
 describe('Login e registro de usuarios alura pic', () => {
 
     beforeEach(() => {
@@ -66,7 +64,7 @@ describe('Login e registro de usuarios alura pic', () => {
             cy.get('input[formcontrolname="fullName"]').type(usuario.fullName);
             cy.get('input[formcontrolname="userName"]').type(usuario.userName);
             cy.get('input[formcontrolname="password"]').type(usuario.password);
-            cy;contains('button', 'Register').click();
+            cy.contains('button', 'Register').click();
         }
         )
     })
