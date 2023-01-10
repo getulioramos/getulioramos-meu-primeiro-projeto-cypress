@@ -4,7 +4,7 @@
   "description": "Primeiro projeto com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypres open"
+    "test": "npx cypress open"
   },
   "author": "Getulio Ramos",
   "license": "ISC",
